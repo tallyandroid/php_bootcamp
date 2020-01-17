@@ -27,7 +27,21 @@ $articles[2];
 //Yhe idex can be any whole number that you like, they do not have to be sequential.
 
 $articles3 = [ 1=> "First Post",
-            2=> "Another Post",
+            3=> "Another Post",
             "Read This"];
 
-            
+//Arrays with string indexes are referred to as associative arrays
+
+//You can only use integers or strings as array indexes
+
+//Associative array example
+$articles4 = [
+    "first" => "First post", 
+    "second" => "Another post", 
+    "third" => "Read this!"
+];
+var_dump($articles4);
+
+//Indvidual elements in an associative array are accessed in the same way as a normal array
+var_dump($articles4["second"]);
+
